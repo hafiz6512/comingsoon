@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Comingsoon | DHC</title>
+
+    <style>
+        body, html {
+            height: 100%
+        }
+        body {
+            margin: 0;
+            font-family: "Courier New", Courier, monospace;
+            color: #333;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            transition: all .3s ease-out;
+        }
+        a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+        .bgimg {
+            /*background-image: url('forestbridge.jpg');*/
+            background: linear-gradient(-45deg, #27E8BA, #817A8C, #23A6D5);
+            background-size: 400% 400%;
+            -webkit-animation: animatedRainbowGradient 15s ease infinite;
+                    animation: animatedRainbowGradient 15s ease infinite;
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 25px;
+        }
+
+        .bgimg h1.maintitle{
+            font-size: 40px;
+            margin: 0 0 20px;
+            padding: 0;
+            -webkit-background: linear-gradient(270deg, #ffffff 0%, #C68E17 100%);
+            background: linear-gradient(270deg, #ffffff 0%, #C68E17 100%);
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bgimg p{
+            font-size: 20px;
+        }
+        .logo{
+            font-size: 24px;
+            font-weight: bold;
+            padding: 20px 0;
+            letter-spacing: 1px;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 0;
+            left: 20px;
+        }
+
+        .bottomleft {
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+        }
+
+        .bottomright {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 780px;
+            max-width: 90%;
+            padding: 0 5%;
+        }
+        .middle > p{
+            padding: 0 20px;
+            margin: 0 0 30px;
+        }
+        .middle hr{
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.74);
+            margin: 30px 0;
+        }
+        @-webkit-keyframes animatedRainbowGradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        @keyframes animatedRainbowGradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimg">
+        <div class="topleft">
+            <div class="logo"><a href="http://diehardcoder.com/" style="color: #fff;">DHC</a></div>
+        </div>
+        <div class="middle">
+            <h1 class="maintitle">Our Website is almost ready.</h1>
+            <p>Great things are coming. We are working hard to launch our website and we will be ready very soon. Stay tuned for somthing amazing.</p>
+            <hr>
+            <p>35 days left</p>
+        </div>
+        <div class="bottomright">
+            <p><a href="mailto:hafiz6512.com">Contact Us</a></p>
+        </div>
+    </div>
+</body>
+</html>
